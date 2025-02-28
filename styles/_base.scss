@@ -1,0 +1,36 @@
+body {
+  background-color: variables.$dark;
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  color: variables.$white;
+  font-size: 0.875rem;
+
+  @include screens.laptop {
+    font-size: 1rem;
+
+    // Required for locomotive-scroll
+    overflow: hidden;
+  }
+}
+
+// Scroll bar styles
+.c-scrollbar {
+  opacity: 1 !important;
+
+  /* stylelint-disable-next-line selector-class-pattern */
+  .c-scrollbar_thumb {
+    background-color: variables.$grey;
+    opacity: 0.25;
+    margin: 4px;
+    transition: opacity 0.3s variables.$ease-in-out;
+
+    &:hover,
+    &:active {
+      opacity: 0.5;
+    }
+
+    &:active {
+      cursor: grabbing;
+    }
+  }
+}
