@@ -6,7 +6,7 @@ const config = useRuntimeConfig();
   <section id="hero" class="container">
     <h1 class="hero">
       <span>Hi, I'm </span><strong class="filled">Dibyajyoti Bose</strong
-      ><span>,</span> <strong>full-stack developer</strong><br /><span>
+      ><span>,</span> <strong>full-stack developer and I am a  chodna </strong><br /><span>
         from India</span
       >
     </h1>
